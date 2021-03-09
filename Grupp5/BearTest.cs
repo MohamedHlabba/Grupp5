@@ -7,6 +7,6 @@ namespace Grupp5
 {
     public class BearTest
     {
-        Console.WriteLine(" testing testing");
+       
     }
 }
