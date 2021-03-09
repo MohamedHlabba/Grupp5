@@ -15,6 +15,8 @@ namespace Grupp5
 {
     public class Startup
     {
+
+        
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -26,6 +28,7 @@ namespace Grupp5
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+
 
             services.AddDbContext<Grupp5Context>(options =>
                     options.UseSqlServer(Configuration.GetConnectionString("Grupp5Context")));
