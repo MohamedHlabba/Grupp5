@@ -14,7 +14,7 @@ namespace Grupp5
         public static void Main(string[] args)
         {
             CreateHostBuilder(args).Build().Run();
-            Console.WriteLine("Hej");
+            Console.WriteLine("Second Commit ");
         }
 
 
