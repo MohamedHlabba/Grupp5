@@ -11,11 +11,11 @@ namespace Grupp5.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly ILogger<HomeController> db1;
 
         public HomeController(ILogger<HomeController> logger)
         {
-            _logger = logger;
+            db1 = logger;
         }
 
         public IActionResult Index()
