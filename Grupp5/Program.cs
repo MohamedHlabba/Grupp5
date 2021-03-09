@@ -14,7 +14,14 @@ namespace Grupp5
         public static void Main(string[] args)
         {
             CreateHostBuilder(args).Build().Run();
+            Console.WriteLine("Hej");
         }
+
+
+
+
+
+        
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
@@ -22,5 +29,7 @@ namespace Grupp5
                 {
                     webBuilder.UseStartup<Startup>();
                 });
+
+        
     }
 }
