@@ -14,6 +14,6 @@ namespace Grupp5.Data
         {
         }
 
-        public DbSet<Grupp5.Models.Product> Product { get; set; }
+        public DbSet<Product> Product { get; set; }
     }
 }
